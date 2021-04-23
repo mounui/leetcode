@@ -1,0 +1,21 @@
+{
+  "name": "leetcode",
+  "version": "1.0.0",
+  "description": "LeetCode题解",
+  "main": "index.js",
+  "repository": "https://github.com/mounui/leetcode.git",
+  "author": "mao",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.8.2",
+    "@vuepress/plugin-google-analytics": "^1.8.2",
+    "install": "^0.13.0",
+    "vuepress": "^1.8.2"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "deploy": "./deploy.sh"
+  }
+}
