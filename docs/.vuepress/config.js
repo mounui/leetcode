@@ -16,7 +16,7 @@ const HARDARR = [
 ]
 
 module.exports = {
-	base: '/leetcode/',
+	base: '/',
 
 	title: 'LeetCode',
 	description: 'LeetCode题解',
